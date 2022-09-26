@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <h1> <u> To do App </u> </h1>
+
+  <head>
+   
+   <style> 
+    h1{text-align: center;
+    padding-top: 150px;}
+    </style>
+
+    <meta charset="utf-8">  
+    <title>To do App </title>
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+     
+      <div class="task-input">
+        <img src="inputicon.png" alt="icon" height="20px">
+        <input type="text" placeholder="Create your To-do here!">
+      </div>
+
+      <div class="controls">
+        <!--selection part-->
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        
+        <button class="clear-btn">Clear All</button>
+
+      </div>
+
+
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
