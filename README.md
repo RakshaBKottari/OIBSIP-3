@@ -1,1 +1,2 @@
-# task3_osis_to-do-app
+# OIBSIP-3
+Oasis Infobyte, Web Development and Designing Internship, Level 2 Task 3
